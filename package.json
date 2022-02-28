@@ -21,6 +21,7 @@
     "type": "git",
     "url": "git@github.com:renoanzhou/video-ratio.git"
   },
+  "typings": "dist/types/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.6",
