@@ -16,6 +16,11 @@
     "scale"
   ],
   "author": "zackXiong",
+  "homepage": "https://github.com/renoanzhou/video-ratio",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:renoanzhou/video-ratio.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.6",
