@@ -1,18 +1,19 @@
 {
   "name": "video-ratio",
   "version": "1.0.0",
-  "description": "用于获得视频的比例和分辨率",
+  "description": "输入视频地址，获得视频的比例和分辨率 Enter the video address to get the scale and resolution of the video",
   "main": "dist/video-ratio.cjs.js",
   "module": "dist/video-ratio.esm.js",
   "browser": "dist/video-ratio.umd.js",
   "scripts": {
-    "build": "rollup",
+    "build": "rollup -c",
     "dev": "rollup -c -w -m"
   },
   "keywords": [
     "video",
     "ratio",
-    "resolution"
+    "resolution",
+    "scale"
   ],
   "author": "zackXiong",
   "license": "MIT",
