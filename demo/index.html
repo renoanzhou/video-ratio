@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo</title>
+    <script src="../dist/video-ratio.umd.js"></script>
+  </head>
+  <body>
+    <script>
+      videoRatio
+        .info(
+          "https://dpv.videocc.net/8737210064/f/87372100645603c0e635036750137ddf_3.mp4?pid=1645970473528X1150557"
+        )
+        .then((info) => {
+          console.log(info);
+        });
+    </script>
+  </body>
+</html>

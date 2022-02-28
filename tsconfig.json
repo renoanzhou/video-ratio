@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "paths": {
+      "@src/*": ["./src/*"],
+    },
+    "outDir": "types",
+  }
+}
